@@ -1,2 +1,2 @@
 # chrome-firefox-imgs
-This page displays on chrome and firefox
+This page displays differently on chrome and firefox
