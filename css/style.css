@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    box-sizing: border-box;
+    height: 100px;
+    background-color: rgb(0, 36, 93);
+}
+#navOffset {
+    z-index: -1;
+    height: 100px;
+}
+nav, footer{
+    font-family: 'Montserrat', sans-serif;
+}
+nav a{
+    /* border: solid white 0.01px; */
+    padding: 1.5%;
+    margin: auto;  
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+}
+nav a:active{
+    color: black;
+}
+nav a:hover{
+    background-color: #ffffff;
+    color: rgb(0, 36, 93);;
+}
+header{
+    display: flex;
+    flex-flow: column;
+    font-family: 'Montserrat', sans-serif;
+}
+header h1{
+    margin: auto;
+    flex:1;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    font-weight: 600;
+    font-size: 300%;
+}
+header p{
+    flex:1;
+    margin: auto;
+    margin: 1% auto;
+    font-size: 100%;
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+}
+main img{
+    flex:1;
+    padding: 2%;
+    flex: 0 50%;
+}
+main p, div p{
+    margin:1%;
+    padding: 1%;
+    flex:1;
+    margin: auto;
+    flex: 0 50%;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 100%; */
+}
+/* main .left img{
+
+}
+main .right img{
+
+}
+main .left p{
+
+}
+main .right p{
+
+} */
+footer{
+    width: 100%;
+    padding: 2%;
+    background-color: rgb(0, 36, 93);
+    color: white;
+    display: flex;
+}
+footer p{
+    color: white;
+    margin: auto;
+}
